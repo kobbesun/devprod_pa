@@ -42,7 +42,9 @@ shinyUI(
                              from the "Motor Trend Car Road Test" data set.'),
                         br(),
                         div('Github repository: '),
-                        div(a('https://github.com/kobbesun/devprod_pa')),
+                        div(a('https://github.com/kobbesun/devprod_pa', 
+                              href = 'https://github.com/kobbesun/devprod_pa',
+                              target = '_blank')),
                         br(),
                         div(' ~ END ~')
                 )
